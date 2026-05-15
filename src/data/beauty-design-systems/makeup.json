@@ -1,0 +1,40 @@
+{
+  "category": "makeup",
+  "displayName": "Makeup",
+  "positioning": "Expressive color payoff with finish, shade, and wear-time confidence.",
+  "typography": {
+    "headline": "Editorial high-contrast sans",
+    "body": "Neutral sans for shade and usage detail",
+    "label": "Bold compact labels for shades and finishes"
+  },
+  "colors": {
+    "primary": "#8F2F4B",
+    "secondary": "#F3B7C8",
+    "accent": "#D79C36",
+    "background": "#FFF7F9",
+    "surface": "#FFFFFF",
+    "text": "#28161D"
+  },
+  "layoutRules": [
+    "Show shade range early and clearly.",
+    "Use side-by-side swatches for color accuracy.",
+    "Balance editorial imagery with practical application steps."
+  ],
+  "contentBlocks": [
+    "Hero color story",
+    "Shade chart",
+    "Finish comparison",
+    "Application tips",
+    "Wear test proof"
+  ],
+  "imageDirection": [
+    "High-detail swatches",
+    "Model crop showing finish",
+    "Product and applicator closeups"
+  ],
+  "conversionCues": [
+    "Shade finder cues",
+    "Long-wear claims",
+    "Texture and finish badges"
+  ]
+}

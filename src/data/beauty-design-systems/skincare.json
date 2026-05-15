@@ -1,0 +1,40 @@
+{
+  "category": "skincare",
+  "displayName": "Skincare",
+  "positioning": "Clinical calm with ingredient credibility and hydration proof.",
+  "typography": {
+    "headline": "Clean geometric sans, medium weight",
+    "body": "Readable humanist sans",
+    "label": "Compact uppercase labels for active ingredients"
+  },
+  "colors": {
+    "primary": "#2F6F63",
+    "secondary": "#A8D5C4",
+    "accent": "#F2B880",
+    "background": "#F7FAF7",
+    "surface": "#FFFFFF",
+    "text": "#1E2A27"
+  },
+  "layoutRules": [
+    "Lead with texture, benefit, and visible skin concern.",
+    "Use soft section breaks and high whitespace for trust.",
+    "Group ingredients with proof points and usage timing."
+  ],
+  "contentBlocks": [
+    "Hero benefit",
+    "Ingredient efficacy",
+    "Skin concern match",
+    "Routine steps",
+    "Texture and absorption proof"
+  ],
+  "imageDirection": [
+    "Macro texture swatches",
+    "Clean product-on-counter photography",
+    "Before/after skin surface closeups"
+  ],
+  "conversionCues": [
+    "Dermatology-inspired badges",
+    "Sensitivity reassurance",
+    "Routine compatibility"
+  ]
+}

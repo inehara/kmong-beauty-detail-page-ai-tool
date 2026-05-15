@@ -1,0 +1,40 @@
+{
+  "category": "hair_body",
+  "displayName": "Hair & Body",
+  "positioning": "Sensory care with salon-grade polish and daily-use clarity.",
+  "typography": {
+    "headline": "Elegant contemporary sans",
+    "body": "Warm readable sans",
+    "label": "Small caps for scent, texture, and care benefits"
+  },
+  "colors": {
+    "primary": "#5E6F3E",
+    "secondary": "#D7E2BC",
+    "accent": "#C88262",
+    "background": "#FAFAF2",
+    "surface": "#FFFFFF",
+    "text": "#25291B"
+  },
+  "layoutRules": [
+    "Show sensory texture and use occasion.",
+    "Separate hair/scalp or body benefit hierarchy clearly.",
+    "Use warm lifestyle imagery without hiding product details."
+  ],
+  "contentBlocks": [
+    "Sensory hero",
+    "Benefit matrix",
+    "Texture and fragrance",
+    "Use routine",
+    "Care result proof"
+  ],
+  "imageDirection": [
+    "Cream or oil texture",
+    "Bathroom lifestyle scene",
+    "Hair shine or skin glow detail"
+  ],
+  "conversionCues": [
+    "Daily routine fit",
+    "Scent family",
+    "Salon or spa cues"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "category": "cleansing",
+  "displayName": "Cleansing",
+  "positioning": "Fresh, clear, and proof-led cleansing with residue-free reassurance.",
+  "typography": {
+    "headline": "Rounded modern sans",
+    "body": "Open sans with generous line spacing",
+    "label": "Simple pill labels for skin type and pH"
+  },
+  "colors": {
+    "primary": "#217C9A",
+    "secondary": "#BFE8F2",
+    "accent": "#79B86C",
+    "background": "#F5FBFC",
+    "surface": "#FFFFFF",
+    "text": "#17333B"
+  },
+  "layoutRules": [
+    "Prioritize cleansing power without dryness.",
+    "Use water, foam, and rinse visuals to make efficacy tangible.",
+    "Place pH and skin barrier reassurance near the top."
+  ],
+  "contentBlocks": [
+    "Fresh hero claim",
+    "Makeup and sebum removal proof",
+    "pH and barrier care",
+    "Foam or balm texture",
+    "How to use"
+  ],
+  "imageDirection": [
+    "Foam macro",
+    "Water rinse motion",
+    "Clean sink or towel scene"
+  ],
+  "conversionCues": [
+    "Low-irritation cues",
+    "Residue-free proof",
+    "Skin type compatibility"
+  ]
+}

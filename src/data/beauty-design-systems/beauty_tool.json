@@ -1,0 +1,40 @@
+{
+  "category": "beauty_tool",
+  "displayName": "Beauty Tool",
+  "positioning": "Precise, ergonomic, and result-oriented tool communication.",
+  "typography": {
+    "headline": "Technical clean sans",
+    "body": "Highly legible UI-like sans",
+    "label": "Specification labels with strong contrast"
+  },
+  "colors": {
+    "primary": "#343A40",
+    "secondary": "#DDE2E6",
+    "accent": "#4C9F70",
+    "background": "#F7F8FA",
+    "surface": "#FFFFFF",
+    "text": "#15191D"
+  },
+  "layoutRules": [
+    "Show tool scale, grip, and contact surface clearly.",
+    "Use diagrams and before/after result cues.",
+    "Keep specs scannable for repeated comparison."
+  ],
+  "contentBlocks": [
+    "Tool result hero",
+    "Feature callouts",
+    "How to use",
+    "Material and size specs",
+    "Care and storage"
+  ],
+  "imageDirection": [
+    "Clean tool closeup",
+    "Handheld usage crop",
+    "Annotated feature image"
+  ],
+  "conversionCues": [
+    "Ergonomic proof",
+    "Material safety",
+    "Maintenance simplicity"
+  ]
+}
