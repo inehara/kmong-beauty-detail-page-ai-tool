@@ -1,0 +1,181 @@
+{
+  "category": "hair_body",
+  "generatedAt": "2026-05-17T22:42:44.303Z",
+  "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\hair_body\\hair_body.generated-design-system.json",
+  "copiedAppJsonPath": "src\\data\\beauty-design-systems\\hair_body.json",
+  "referenceSources": [
+    {
+      "fileName": "body_1.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\body_1.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "body_2.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\body_2.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "body_3.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\body_3.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "hair_1.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\hair_1.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "hair_2.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\hair_2.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "hair_3.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\hair_3.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "hair_4.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\hair_4.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "hair_5.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\hair_body\\hair_5.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    }
+  ],
+  "analysisSourceFiles": [
+    {
+      "fileName": "body_1.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\body_1.jpg.analysis.json",
+      "sourceReferenceFile": "body_1.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "body_2.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\body_2.jpg.analysis.json",
+      "sourceReferenceFile": "body_2.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "body_3.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\body_3.jpg.analysis.json",
+      "sourceReferenceFile": "body_3.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "hair_1.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\hair_1.jpg.analysis.json",
+      "sourceReferenceFile": "hair_1.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "hair_2.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\hair_2.jpg.analysis.json",
+      "sourceReferenceFile": "hair_2.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "hair_3.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\hair_3.jpg.analysis.json",
+      "sourceReferenceFile": "hair_3.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "hair_4.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\hair_4.jpg.analysis.json",
+      "sourceReferenceFile": "hair_4.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "hair_5.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\hair_body\\image-analyses\\hair_5.jpg.analysis.json",
+      "sourceReferenceFile": "hair_5.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    }
+  ],
+  "analysisCompleteness": {
+    "status": "complete",
+    "averageCompletenessScore": 1,
+    "requiresAdditionalAnalysis": false,
+    "incompleteReferenceFiles": [],
+    "missingCommonFields": []
+  },
+  "missingAnalysisWarnings": [],
+  "aggregationSummary": {
+    "totalReferenceImagesFound": 8,
+    "totalReferenceImagesIncluded": 8,
+    "totalImageAnalysesUsed": 8,
+    "completeReferenceImages": 8,
+    "incompleteReferenceImages": 0,
+    "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\hair_body\\hair_body.generated-design-system.json",
+    "copiedAppJsonPath": "src\\data\\beauty-design-systems\\hair_body.json",
+    "manifestPath": "outputs\\design-system-builder\\hair_body\\hair_body.manifest.json",
+    "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/hair_body/",
+    "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/hair_body/hair_body-contact-sheet.jpg",
+    "referenceContactSheetGenerated": true,
+    "referenceContactSheetMode": "cropped_grid",
+    "referenceContactSheetTileCount": 9,
+    "referenceContactSheetCropStrategy": "hero_middle_lower",
+    "contactSheetDimensions": {
+      "width": 1536,
+      "height": 1536
+    },
+    "contactSheetReadableForGeneration": true
+  },
+  "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/hair_body/",
+  "publicReferenceImagePaths": [
+    "/generated-reference-assets/kmong-beauty/hair_body/references/body_1.jpg",
+    "/generated-reference-assets/kmong-beauty/hair_body/references/body_2.jpg",
+    "/generated-reference-assets/kmong-beauty/hair_body/references/body_3.jpg"
+  ],
+  "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/hair_body/hair_body-contact-sheet.jpg",
+  "referenceContactSheetGenerated": true,
+  "referenceContactSheetMode": "cropped_grid",
+  "referenceContactSheetTileCount": 9,
+  "referenceContactSheetCropStrategy": "hero_middle_lower",
+  "contactSheetDimensions": {
+    "width": 1536,
+    "height": 1536
+  },
+  "contactSheetReadableForGeneration": true,
+  "referenceImageCountAvailableForGeneration": 3,
+  "referenceImagesPassedToGenerationDefault": [
+    "/generated-reference-assets/kmong-beauty/hair_body/references/body_1.jpg",
+    "/generated-reference-assets/kmong-beauty/hair_body/references/body_2.jpg",
+    "/generated-reference-assets/kmong-beauty/hair_body/references/body_3.jpg"
+  ]
+}

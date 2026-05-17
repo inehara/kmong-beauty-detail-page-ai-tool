@@ -1,0 +1,136 @@
+{
+  "category": "beauty_tool",
+  "generatedAt": "2026-05-17T22:43:36.183Z",
+  "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\beauty_tool\\beauty_tool.generated-design-system.json",
+  "copiedAppJsonPath": "src\\data\\beauty-design-systems\\beauty_tool.json",
+  "referenceSources": [
+    {
+      "fileName": "device_1.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\beauty_tool\\device_1.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "device_2.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\beauty_tool\\device_2.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "device_3.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\beauty_tool\\device_3.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "device_4.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\beauty_tool\\device_4.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "device_5.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\beauty_tool\\device_5.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    }
+  ],
+  "analysisSourceFiles": [
+    {
+      "fileName": "device_1.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\beauty_tool\\image-analyses\\device_1.jpg.analysis.json",
+      "sourceReferenceFile": "device_1.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "device_2.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\beauty_tool\\image-analyses\\device_2.jpg.analysis.json",
+      "sourceReferenceFile": "device_2.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "device_3.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\beauty_tool\\image-analyses\\device_3.jpg.analysis.json",
+      "sourceReferenceFile": "device_3.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "device_4.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\beauty_tool\\image-analyses\\device_4.jpg.analysis.json",
+      "sourceReferenceFile": "device_4.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "device_5.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\beauty_tool\\image-analyses\\device_5.jpg.analysis.json",
+      "sourceReferenceFile": "device_5.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    }
+  ],
+  "analysisCompleteness": {
+    "status": "complete",
+    "averageCompletenessScore": 1,
+    "requiresAdditionalAnalysis": false,
+    "incompleteReferenceFiles": [],
+    "missingCommonFields": []
+  },
+  "missingAnalysisWarnings": [],
+  "aggregationSummary": {
+    "totalReferenceImagesFound": 5,
+    "totalReferenceImagesIncluded": 5,
+    "totalImageAnalysesUsed": 5,
+    "completeReferenceImages": 5,
+    "incompleteReferenceImages": 0,
+    "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\beauty_tool\\beauty_tool.generated-design-system.json",
+    "copiedAppJsonPath": "src\\data\\beauty-design-systems\\beauty_tool.json",
+    "manifestPath": "outputs\\design-system-builder\\beauty_tool\\beauty_tool.manifest.json",
+    "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/beauty_tool/",
+    "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/beauty_tool/beauty_tool-contact-sheet.jpg",
+    "referenceContactSheetGenerated": true,
+    "referenceContactSheetMode": "cropped_grid",
+    "referenceContactSheetTileCount": 9,
+    "referenceContactSheetCropStrategy": "hero_middle_lower",
+    "contactSheetDimensions": {
+      "width": 1536,
+      "height": 1536
+    },
+    "contactSheetReadableForGeneration": true
+  },
+  "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/beauty_tool/",
+  "publicReferenceImagePaths": [
+    "/generated-reference-assets/kmong-beauty/beauty_tool/references/device_1.jpg",
+    "/generated-reference-assets/kmong-beauty/beauty_tool/references/device_2.jpg",
+    "/generated-reference-assets/kmong-beauty/beauty_tool/references/device_3.jpg"
+  ],
+  "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/beauty_tool/beauty_tool-contact-sheet.jpg",
+  "referenceContactSheetGenerated": true,
+  "referenceContactSheetMode": "cropped_grid",
+  "referenceContactSheetTileCount": 9,
+  "referenceContactSheetCropStrategy": "hero_middle_lower",
+  "contactSheetDimensions": {
+    "width": 1536,
+    "height": 1536
+  },
+  "contactSheetReadableForGeneration": true,
+  "referenceImageCountAvailableForGeneration": 3,
+  "referenceImagesPassedToGenerationDefault": [
+    "/generated-reference-assets/kmong-beauty/beauty_tool/references/device_1.jpg",
+    "/generated-reference-assets/kmong-beauty/beauty_tool/references/device_2.jpg",
+    "/generated-reference-assets/kmong-beauty/beauty_tool/references/device_3.jpg"
+  ]
+}

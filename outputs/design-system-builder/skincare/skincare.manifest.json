@@ -1,0 +1,136 @@
+{
+  "category": "skincare",
+  "generatedAt": "2026-05-17T22:38:44.318Z",
+  "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\skincare\\skincare.generated-design-system.json",
+  "copiedAppJsonPath": "src\\data\\beauty-design-systems\\skincare.json",
+  "referenceSources": [
+    {
+      "fileName": "skincare_1.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\skincare\\skincare_1.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "skincare_2.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\skincare\\skincare_2.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "skincare_3.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\skincare\\skincare_3.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "skincare_4.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\skincare\\skincare_4.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "skincare_5.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\skincare\\skincare_5.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    }
+  ],
+  "analysisSourceFiles": [
+    {
+      "fileName": "skincare_1.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\skincare\\image-analyses\\skincare_1.jpg.analysis.json",
+      "sourceReferenceFile": "skincare_1.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "skincare_2.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\skincare\\image-analyses\\skincare_2.jpg.analysis.json",
+      "sourceReferenceFile": "skincare_2.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "skincare_3.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\skincare\\image-analyses\\skincare_3.jpg.analysis.json",
+      "sourceReferenceFile": "skincare_3.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "skincare_4.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\skincare\\image-analyses\\skincare_4.jpg.analysis.json",
+      "sourceReferenceFile": "skincare_4.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "skincare_5.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\skincare\\image-analyses\\skincare_5.jpg.analysis.json",
+      "sourceReferenceFile": "skincare_5.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    }
+  ],
+  "analysisCompleteness": {
+    "status": "complete",
+    "averageCompletenessScore": 1,
+    "requiresAdditionalAnalysis": false,
+    "incompleteReferenceFiles": [],
+    "missingCommonFields": []
+  },
+  "missingAnalysisWarnings": [],
+  "aggregationSummary": {
+    "totalReferenceImagesFound": 5,
+    "totalReferenceImagesIncluded": 5,
+    "totalImageAnalysesUsed": 5,
+    "completeReferenceImages": 5,
+    "incompleteReferenceImages": 0,
+    "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\skincare\\skincare.generated-design-system.json",
+    "copiedAppJsonPath": "src\\data\\beauty-design-systems\\skincare.json",
+    "manifestPath": "outputs\\design-system-builder\\skincare\\skincare.manifest.json",
+    "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/skincare/",
+    "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/skincare/skincare-contact-sheet.jpg",
+    "referenceContactSheetGenerated": true,
+    "referenceContactSheetMode": "cropped_grid",
+    "referenceContactSheetTileCount": 9,
+    "referenceContactSheetCropStrategy": "hero_middle_lower",
+    "contactSheetDimensions": {
+      "width": 1536,
+      "height": 1536
+    },
+    "contactSheetReadableForGeneration": true
+  },
+  "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/skincare/",
+  "publicReferenceImagePaths": [
+    "/generated-reference-assets/kmong-beauty/skincare/references/skincare_1.jpg",
+    "/generated-reference-assets/kmong-beauty/skincare/references/skincare_2.jpg",
+    "/generated-reference-assets/kmong-beauty/skincare/references/skincare_3.jpg"
+  ],
+  "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/skincare/skincare-contact-sheet.jpg",
+  "referenceContactSheetGenerated": true,
+  "referenceContactSheetMode": "cropped_grid",
+  "referenceContactSheetTileCount": 9,
+  "referenceContactSheetCropStrategy": "hero_middle_lower",
+  "contactSheetDimensions": {
+    "width": 1536,
+    "height": 1536
+  },
+  "contactSheetReadableForGeneration": true,
+  "referenceImageCountAvailableForGeneration": 3,
+  "referenceImagesPassedToGenerationDefault": [
+    "/generated-reference-assets/kmong-beauty/skincare/references/skincare_1.jpg",
+    "/generated-reference-assets/kmong-beauty/skincare/references/skincare_2.jpg",
+    "/generated-reference-assets/kmong-beauty/skincare/references/skincare_3.jpg"
+  ]
+}

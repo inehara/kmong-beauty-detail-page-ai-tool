@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:design-systems": "tsx scripts/design-system-builder/buildBeautyDesignSystems.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -23,6 +24,8 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "sharp": "^0.34.5",
+    "tsx": "^4.22.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.12"

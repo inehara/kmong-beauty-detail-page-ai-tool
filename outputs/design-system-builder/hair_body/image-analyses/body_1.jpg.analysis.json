@@ -1,0 +1,192 @@
+{
+  "fileName": "body_1.jpg",
+  "category": "hair_body",
+  "analysisStatus": "complete",
+  "analysisCompletenessScore": 1,
+  "missingDesignElementFields": [],
+  "requiresAdditionalAnalysis": false,
+  "fullDesignElementAnalysis": {
+    "overallLayoutStructure": [
+      "vertical stacking of sections",
+      "clear separation between product and information sections"
+    ],
+    "sectionOrder": [
+      "hero section",
+      "product description",
+      "benefits section",
+      "usage instructions",
+      "product info"
+    ],
+    "heroSectionStyle": [
+      "large product image",
+      "bold product name",
+      "minimalistic design"
+    ],
+    "headlineStyle": [
+      "large font size",
+      "bold typeface",
+      "high contrast with background"
+    ],
+    "subheadlineStyle": [
+      "medium font size",
+      "slightly lighter weight than headline"
+    ],
+    "bodyTextStyle": [
+      "regular font weight",
+      "clear and legible"
+    ],
+    "typographyHierarchy": [
+      "headline > subheadline > body text"
+    ],
+    "colorPalette": [
+      "yellow accents",
+      "white background",
+      "black text"
+    ],
+    "backgroundTreatment": [
+      "solid color backgrounds",
+      "light gradients in sections"
+    ],
+    "spacingRhythm": [
+      "consistent padding between sections",
+      "ample white space"
+    ],
+    "gridCompositionPattern": [
+      "single column layout",
+      "image and text alignment"
+    ],
+    "cardBlockStyle": [
+      "not present in reference image"
+    ],
+    "ctaButtonStyle": [
+      "prominent placement",
+      "contrasting color"
+    ],
+    "iconStyle": [
+      "simple and flat design",
+      "consistent with overall aesthetic"
+    ],
+    "badgeLabelStyle": [
+      "not present in reference image"
+    ],
+    "trustProofElementStyle": [
+      "not present in reference image"
+    ],
+    "productVisualTreatment": [
+      "high-quality product images",
+      "focus on product details"
+    ],
+    "imageCropCompositionStyle": [
+      "close-up shots of product",
+      "emphasis on texture"
+    ],
+    "beforeAfterOrProofSectionStyling": [
+      "not present in reference image"
+    ],
+    "ingredientFeatureSectionStyling": [
+      "clear listing of ingredients",
+      "visual icons for benefits"
+    ],
+    "benefitBlockStyling": [
+      "bullet points for clarity",
+      "icons accompanying text"
+    ],
+    "testimonialReviewStyling": [
+      "not present in reference image"
+    ],
+    "priceOfferSectionStyling": [
+      "clear display of price",
+      "highlighted offers"
+    ],
+    "footerBottomCtaStyling": [
+      "not present in reference image"
+    ],
+    "commerceConversionPatterns": [
+      "clear product information",
+      "easy navigation to purchase"
+    ],
+    "visualHierarchy": [
+      "strong emphasis on product name and benefits",
+      "logical flow from product to usage"
+    ],
+    "reusableDesignRules": [
+      "consistent use of color and typography",
+      "clear section separation"
+    ],
+    "strengths": [
+      "clean and modern design",
+      "effective use of color contrast"
+    ],
+    "avoidPatterns": [
+      "overcrowded sections",
+      "inconsistent typography"
+    ]
+  },
+  "reusablePatterns": [
+    "vertical section stacking",
+    "high contrast text"
+  ],
+  "extractionNotes": [
+    "focus on product features and benefits",
+    "minimal distractions in layout"
+  ],
+  "layoutStructure": [
+    "single column layout",
+    "sections stacked vertically"
+  ],
+  "sectionOrder": [
+    "hero section",
+    "product description",
+    "benefits section",
+    "usage instructions",
+    "product info"
+  ],
+  "heroSectionStyle": [
+    "large product image",
+    "bold product name",
+    "minimalistic design"
+  ],
+  "typographyStyle": [
+    "consistent font usage",
+    "clear hierarchy"
+  ],
+  "colorPalette": [
+    "yellow accents",
+    "white background",
+    "black text"
+  ],
+  "spacingPattern": [
+    "consistent padding",
+    "ample white space"
+  ],
+  "visualHierarchy": [
+    "strong emphasis on product name and benefits",
+    "logical flow from product to usage"
+  ],
+  "ctaPlacement": [
+    "prominent and easily accessible"
+  ],
+  "trustElements": [
+    "not present in reference image"
+  ],
+  "productVisualTreatment": [
+    "high-quality product images",
+    "focus on product details"
+  ],
+  "iconBadgeUsage": [
+    "simple and flat design",
+    "consistent with overall aesthetic"
+  ],
+  "commerceConversionPatterns": [
+    "clear product information",
+    "easy navigation to purchase"
+  ],
+  "strengths": [
+    "clean and modern design",
+    "effective use of color contrast"
+  ],
+  "reusableDesignRules": [
+    "consistent use of color and typography",
+    "clear section separation"
+  ]
+}

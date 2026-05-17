@@ -1,0 +1,220 @@
+{
+  "fileName": "cleansing_2.jpg",
+  "category": "cleansing",
+  "analysisStatus": "complete",
+  "analysisCompletenessScore": 1,
+  "missingDesignElementFields": [],
+  "requiresAdditionalAnalysis": false,
+  "fullDesignElementAnalysis": {
+    "overallLayoutStructure": [
+      "vertical stacking",
+      "sectioned layout",
+      "image and text integration"
+    ],
+    "sectionOrder": [
+      "hero section",
+      "product introduction",
+      "key points",
+      "usage instructions",
+      "ingredient feature",
+      "benefits",
+      "price offer"
+    ],
+    "heroSectionStyle": [
+      "large background image",
+      "minimal text overlay",
+      "brand logo prominently displayed"
+    ],
+    "headlineStyle": [
+      "bold font",
+      "large size",
+      "centered alignment"
+    ],
+    "subheadlineStyle": [
+      "smaller font than headline",
+      "italicized",
+      "supportive information"
+    ],
+    "bodyTextStyle": [
+      "regular font",
+      "medium size",
+      "left-aligned"
+    ],
+    "typographyHierarchy": [
+      "headline > subheadline > body text",
+      "consistent font usage"
+    ],
+    "colorPalette": [
+      "soft pastels",
+      "earth tones",
+      "white for contrast"
+    ],
+    "backgroundTreatment": [
+      "light gradient",
+      "soft textures",
+      "image backgrounds"
+    ],
+    "spacingRhythm": [
+      "consistent padding",
+      "generous whitespace",
+      "balanced margins"
+    ],
+    "gridCompositionPattern": [
+      "single column layout",
+      "image and text blocks"
+    ],
+    "cardBlockStyle": [
+      "rounded corners",
+      "shadow effects",
+      "hover effects"
+    ],
+    "ctaButtonStyle": [
+      "prominent color",
+      "rounded edges",
+      "clear action text"
+    ],
+    "iconStyle": [
+      "simple line icons",
+      "consistent size",
+      "thematic relevance"
+    ],
+    "badgeLabelStyle": [
+      "rounded badges",
+      "contrasting colors",
+      "clear text"
+    ],
+    "trustProofElementStyle": [
+      "customer reviews",
+      "star ratings",
+      "trust badges"
+    ],
+    "productVisualTreatment": [
+      "high-quality images",
+      "lifestyle context",
+      "focus on product usage"
+    ],
+    "imageCropCompositionStyle": [
+      "close-up shots",
+      "natural lighting",
+      "contextual backgrounds"
+    ],
+    "beforeAfterOrProofSectionStyling": [
+      "not present in reference image"
+    ],
+    "ingredientFeatureSectionStyling": [
+      "detailed descriptions",
+      "visual representations",
+      "highlighted benefits"
+    ],
+    "benefitBlockStyling": [
+      "bullet points",
+      "icons for each benefit",
+      "clear headings"
+    ],
+    "testimonialReviewStyling": [
+      "not present in reference image"
+    ],
+    "priceOfferSectionStyling": [
+      "clear pricing",
+      "discount labels",
+      "prominent placement"
+    ],
+    "footerBottomCtaStyling": [
+      "not present in reference image"
+    ],
+    "commerceConversionPatterns": [
+      "clear navigation",
+      "easy access to product details",
+      "visible call-to-action"
+    ],
+    "visualHierarchy": [
+      "strong emphasis on product",
+      "clear flow from top to bottom",
+      "highlighted key points"
+    ],
+    "reusableDesignRules": [
+      "consistent font usage",
+      "color harmony",
+      "image quality standards"
+    ],
+    "strengths": [
+      "aesthetic appeal",
+      "clear information hierarchy",
+      "engaging visuals"
+    ],
+    "avoidPatterns": [
+      "cluttered sections",
+      "overly complex navigation",
+      "inconsistent styling"
+    ]
+  },
+  "reusablePatterns": [
+    "sectioned layout",
+    "image and text integration",
+    "consistent typography"
+  ],
+  "extractionNotes": [
+    "focus on product benefits",
+    "emphasis on user experience"
+  ],
+  "layoutStructure": [
+    "vertical stacking",
+    "image and text integration"
+  ],
+  "sectionOrder": [
+    "hero section",
+    "product introduction",
+    "key points",
+    "usage instructions",
+    "ingredient feature",
+    "benefits",
+    "price offer"
+  ],
+  "heroSectionStyle": [
+    "large background image",
+    "minimal text overlay"
+  ],
+  "typographyStyle": [
+    "bold for headlines",
+    "regular for body text"
+  ],
+  "colorPalette": [
+    "soft pastels",
+    "earth tones"
+  ],
+  "spacingPattern": [
+    "consistent padding",
+    "generous whitespace"
+  ],
+  "visualHierarchy": [
+    "strong emphasis on product",
+    "clear flow"
+  ],
+  "ctaPlacement": [
+    "prominent placement in sections"
+  ],
+  "trustElements": [
+    "customer reviews",
+    "trust badges"
+  ],
+  "productVisualTreatment": [
+    "high-quality images",
+    "lifestyle context"
+  ],
+  "iconBadgeUsage": [
+    "simple line icons",
+    "thematic relevance"
+  ],
+  "commerceConversionPatterns": [
+    "clear navigation",
+    "visible call-to-action"
+  ],
+  "strengths": [
+    "aesthetic appeal",
+    "clear information hierarchy"
+  ],
+  "reusableDesignRules": [
+    "consistent font usage",
+    "color harmony"
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "fileName": "hair_1.jpg",
+  "category": "hair_body",
+  "analysisStatus": "complete",
+  "analysisCompletenessScore": 1,
+  "missingDesignElementFields": [],
+  "requiresAdditionalAnalysis": false,
+  "fullDesignElementAnalysis": {
+    "overallLayoutStructure": [
+      "vertical stacking of sections",
+      "clear separation between product and informational sections"
+    ],
+    "sectionOrder": [
+      "hero section",
+      "key points",
+      "product details",
+      "care instructions"
+    ],
+    "heroSectionStyle": [
+      "large product image",
+      "minimalistic design",
+      "soft color palette"
+    ],
+    "headlineStyle": [
+      "bold typography",
+      "large font size",
+      "high contrast with background"
+    ],
+    "subheadlineStyle": [
+      "italicized text",
+      "smaller than headline",
+      "complementary color"
+    ],
+    "bodyTextStyle": [
+      "regular font weight",
+      "consistent line spacing",
+      "clear readability"
+    ],
+    "typographyHierarchy": [
+      "headline > subheadline > body text",
+      "consistent font family"
+    ],
+    "colorPalette": [
+      "neutral tones",
+      "soft browns and whites",
+      "gold accents"
+    ],
+    "backgroundTreatment": [
+      "textured backgrounds",
+      "subtle gradients",
+      "contrast with text"
+    ],
+    "spacingRhythm": [
+      "consistent padding between sections",
+      "equal margins around text blocks"
+    ],
+    "gridCompositionPattern": [
+      "single column layout",
+      "centered alignment"
+    ],
+    "cardBlockStyle": [
+      "rounded corners",
+      "shadow effects",
+      "consistent spacing"
+    ],
+    "ctaButtonStyle": [
+      "prominent placement",
+      "contrasting color",
+      "rounded edges"
+    ],
+    "iconStyle": [
+      "simple line icons",
+      "consistent size",
+      "monochromatic"
+    ],
+    "badgeLabelStyle": [
+      "rounded badges",
+      "contrasting colors",
+      "clear text"
+    ],
+    "trustProofElementStyle": [
+      "checkmarks for features",
+      "clear and concise"
+    ],
+    "productVisualTreatment": [
+      "high-quality images",
+      "focus on product details",
+      "contextual usage"
+    ],
+    "imageCropCompositionStyle": [
+      "close-up shots",
+      "emphasis on product features"
+    ],
+    "beforeAfterOrProofSectionStyling": [
+      "not present in reference image"
+    ],
+    "ingredientFeatureSectionStyling": [
+      "icons representing ingredients",
+      "clear labeling"
+    ],
+    "benefitBlockStyling": [
+      "bullet points for clarity",
+      "consistent icon usage"
+    ],
+    "testimonialReviewStyling": [
+      "not present in reference image"
+    ],
+    "priceOfferSectionStyling": [
+      "clear pricing information",
+      "highlighted offers"
+    ],
+    "footerBottomCtaStyling": [
+      "not present in reference image"
+    ],
+    "commerceConversionPatterns": [
+      "clear call-to-action",
+      "informational sections leading to purchase"
+    ],
+    "visualHierarchy": [
+      "strong emphasis on product name",
+      "subsequent focus on benefits"
+    ],
+    "reusableDesignRules": [
+      "consistent use of typography",
+      "color harmony across sections"
+    ],
+    "strengths": [
+      "clean and modern aesthetic",
+      "effective use of whitespace"
+    ],
+    "avoidPatterns": [
+      "overly cluttered sections",
+      "inconsistent font sizes"
+    ]
+  },
+  "reusablePatterns": [
+    "consistent typography",
+    "clear section separation",
+    "use of icons for features"
+  ],
+  "extractionNotes": [
+    "focus on product benefits and features",
+    "minimal distractions in layout"
+  ],
+  "layoutStructure": [
+    "single column",
+    "vertical stacking"
+  ],
+  "sectionOrder": [
+    "hero section",
+    "key points",
+    "product details",
+    "care instructions"
+  ],
+  "heroSectionStyle": [
+    "large product image",
+    "minimalistic design",
+    "soft color palette"
+  ],
+  "typographyStyle": [
+    "bold headlines",
+    "clear body text"
+  ],
+  "colorPalette": [
+    "neutral tones",
+    "soft browns and whites",
+    "gold accents"
+  ],
+  "spacingPattern": [
+    "consistent padding",
+    "equal margins"
+  ],
+  "visualHierarchy": [
+    "headline > subheadline > body text"
+  ],
+  "ctaPlacement": [
+    "prominent and clear"
+  ],
+  "trustElements": [
+    "checkmarks for features"
+  ],
+  "productVisualTreatment": [
+    "high-quality images",
+    "contextual usage"
+  ],
+  "iconBadgeUsage": [
+    "simple line icons",
+    "consistent size"
+  ],
+  "commerceConversionPatterns": [
+    "clear call-to-action",
+    "informational sections leading to purchase"
+  ],
+  "strengths": [
+    "clean and modern aesthetic",
+    "effective use of whitespace"
+  ],
+  "reusableDesignRules": [
+    "consistent use of typography",
+    "color harmony across sections"
+  ]
+}

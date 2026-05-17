@@ -31,7 +31,11 @@ export async function runWorkflow(
   const designSystem = loadDesignSystem(input.category)
 
   onProgress('creating_spec', 'Generating improved_design_spec.json.')
-  const improvedDesignSpec = createImprovementSpec(originalAnalysis, designSystem)
+  const improvedDesignSpec = createImprovementSpec(
+    originalAnalysis,
+    designSystem,
+    input.referenceStyleInfluence,
+  )
 
   onProgress('generating_after', 'Generating After image.')
   const imageProvider = import.meta.env.VITE_IMAGE_PROVIDER || 'openrouter'
@@ -85,6 +89,30 @@ export async function runWorkflow(
     originalAnalysis,
     designSystem,
     improvedDesignSpec,
+    designSystemJsonPathUsed: designSystem.designSystemJsonPath,
+    referenceSourceFileNamesUsed:
+      designSystem.referenceSources?.map((source) => source.fileName) ?? [],
+    analysisSourceFileNamesUsed:
+      designSystem.analysisSourceFiles?.map((source) => source.fileName) ?? [],
+    designSystemGeneratedAt: designSystem.generatedAt,
+    referenceImageCountUsed: designSystem.referenceImageCount ?? 0,
+    analysisCompletenessStatus: designSystem.analysisCompleteness?.status,
+    analysisCompletenessScore:
+      designSystem.analysisCompleteness?.averageCompletenessScore,
+    requiresAdditionalAnalysis:
+      designSystem.analysisCompleteness?.requiresAdditionalAnalysis ?? false,
+    missingAnalysisWarnings: designSystem.missingAnalysisWarnings ?? [],
+    referenceImagesPassedToGeneration:
+      afterImage.referenceImagesPassedToGeneration,
+    referenceContactSheetPath: afterImage.referenceContactSheetPath,
+    referenceContactSheetMode: afterImage.referenceContactSheetMode,
+    referenceImageCountPassedToGeneration:
+      afterImage.referenceImageCountPassedToGeneration,
+    generationUsedDirectReferenceImages:
+      afterImage.generationUsedDirectReferenceImages,
+    originalContentBoardGenerated: afterImage.originalContentBoardGenerated,
+    originalContentBoardMode: afterImage.originalContentBoardMode,
+    originalContentBoardDimensions: afterImage.originalContentBoardDimensions,
     issueReport: afterImage.issueReport || originalAnalysis.issueReport,
   }
 }

@@ -10,6 +10,7 @@ export type DetailPageSection = {
 export type DesignAnalysis = {
   fileName: string
   category: BeautySubcategory
+  detectedCategory?: BeautySubcategory
   summary: string
   targetCustomer: string
   currentStrengths: string[]

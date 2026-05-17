@@ -11,6 +11,8 @@ export type BeautySubcategory =
   | 'hair_body'
   | 'beauty_tool'
 
+export type ReferenceStyleInfluence = 'low' | 'medium' | 'high'
+
 export type WorkflowProgressStep =
   | 'idle'
   | 'reading_upload'
@@ -28,6 +30,7 @@ export type WorkflowInput = {
   companyName: string
   email: string
   category: BeautySubcategory
+  referenceStyleInfluence: ReferenceStyleInfluence
   originalImage: File
 }
 
@@ -47,6 +50,23 @@ export type WorkflowResult = {
   originalAnalysis: DesignAnalysis
   designSystem: BeautyDesignSystem
   improvedDesignSpec: ImprovedDesignSpec
+  designSystemJsonPathUsed?: string
+  referenceSourceFileNamesUsed: string[]
+  analysisSourceFileNamesUsed: string[]
+  designSystemGeneratedAt?: string
+  referenceImageCountUsed: number
+  analysisCompletenessStatus?: string
+  analysisCompletenessScore?: number
+  requiresAdditionalAnalysis: boolean
+  missingAnalysisWarnings: string[]
+  referenceImagesPassedToGeneration: string[]
+  referenceContactSheetPath?: string
+  referenceContactSheetMode?: string
+  referenceImageCountPassedToGeneration: number
+  generationUsedDirectReferenceImages: boolean
+  originalContentBoardGenerated: boolean
+  originalContentBoardMode?: string
+  originalContentBoardDimensions?: { width: number; height: number }
   issueReport?: IssueReport
 }
 

@@ -1,0 +1,106 @@
+{
+  "category": "makeup",
+  "generatedAt": "2026-05-17T22:39:35.924Z",
+  "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\makeup\\makeup.generated-design-system.json",
+  "copiedAppJsonPath": "src\\data\\beauty-design-systems\\makeup.json",
+  "referenceSources": [
+    {
+      "fileName": "makeup_1.png",
+      "relativePath": "reference-images\\kmong-beauty\\makeup\\makeup_1.png",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "makeup_2.png",
+      "relativePath": "reference-images\\kmong-beauty\\makeup\\makeup_2.png",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "makeup_3.png",
+      "relativePath": "reference-images\\kmong-beauty\\makeup\\makeup_3.png",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    }
+  ],
+  "analysisSourceFiles": [
+    {
+      "fileName": "makeup_1.png.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\makeup\\image-analyses\\makeup_1.png.analysis.json",
+      "sourceReferenceFile": "makeup_1.png",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "makeup_2.png.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\makeup\\image-analyses\\makeup_2.png.analysis.json",
+      "sourceReferenceFile": "makeup_2.png",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "makeup_3.png.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\makeup\\image-analyses\\makeup_3.png.analysis.json",
+      "sourceReferenceFile": "makeup_3.png",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    }
+  ],
+  "analysisCompleteness": {
+    "status": "complete",
+    "averageCompletenessScore": 1,
+    "requiresAdditionalAnalysis": false,
+    "incompleteReferenceFiles": [],
+    "missingCommonFields": []
+  },
+  "missingAnalysisWarnings": [],
+  "aggregationSummary": {
+    "totalReferenceImagesFound": 3,
+    "totalReferenceImagesIncluded": 3,
+    "totalImageAnalysesUsed": 3,
+    "completeReferenceImages": 3,
+    "incompleteReferenceImages": 0,
+    "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\makeup\\makeup.generated-design-system.json",
+    "copiedAppJsonPath": "src\\data\\beauty-design-systems\\makeup.json",
+    "manifestPath": "outputs\\design-system-builder\\makeup\\makeup.manifest.json",
+    "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/makeup/",
+    "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/makeup/makeup-contact-sheet.jpg",
+    "referenceContactSheetGenerated": true,
+    "referenceContactSheetMode": "cropped_grid",
+    "referenceContactSheetTileCount": 9,
+    "referenceContactSheetCropStrategy": "hero_middle_lower",
+    "contactSheetDimensions": {
+      "width": 1536,
+      "height": 1536
+    },
+    "contactSheetReadableForGeneration": true
+  },
+  "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/makeup/",
+  "publicReferenceImagePaths": [
+    "/generated-reference-assets/kmong-beauty/makeup/references/makeup_1.png",
+    "/generated-reference-assets/kmong-beauty/makeup/references/makeup_2.png",
+    "/generated-reference-assets/kmong-beauty/makeup/references/makeup_3.png"
+  ],
+  "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/makeup/makeup-contact-sheet.jpg",
+  "referenceContactSheetGenerated": true,
+  "referenceContactSheetMode": "cropped_grid",
+  "referenceContactSheetTileCount": 9,
+  "referenceContactSheetCropStrategy": "hero_middle_lower",
+  "contactSheetDimensions": {
+    "width": 1536,
+    "height": 1536
+  },
+  "contactSheetReadableForGeneration": true,
+  "referenceImageCountAvailableForGeneration": 3,
+  "referenceImagesPassedToGenerationDefault": [
+    "/generated-reference-assets/kmong-beauty/makeup/references/makeup_1.png",
+    "/generated-reference-assets/kmong-beauty/makeup/references/makeup_2.png",
+    "/generated-reference-assets/kmong-beauty/makeup/references/makeup_3.png"
+  ]
+}

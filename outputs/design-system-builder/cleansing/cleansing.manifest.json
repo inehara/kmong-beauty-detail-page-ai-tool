@@ -1,0 +1,136 @@
+{
+  "category": "cleansing",
+  "generatedAt": "2026-05-17T22:41:01.894Z",
+  "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\cleansing\\cleansing.generated-design-system.json",
+  "copiedAppJsonPath": "src\\data\\beauty-design-systems\\cleansing.json",
+  "referenceSources": [
+    {
+      "fileName": "cleansing_1.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\cleansing\\cleansing_1.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "cleansing_2.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\cleansing\\cleansing_2.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "cleansing_3.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\cleansing\\cleansing_3.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "cleansing_4.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\cleansing\\cleansing_4.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    },
+    {
+      "fileName": "cleansing_5.jpg",
+      "relativePath": "reference-images\\kmong-beauty\\cleansing\\cleansing_5.jpg",
+      "includedInAggregation": true,
+      "analysisStatus": "complete",
+      "analysisCompletenessScore": 1,
+      "requiresAdditionalAnalysis": false
+    }
+  ],
+  "analysisSourceFiles": [
+    {
+      "fileName": "cleansing_1.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\cleansing\\image-analyses\\cleansing_1.jpg.analysis.json",
+      "sourceReferenceFile": "cleansing_1.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "cleansing_2.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\cleansing\\image-analyses\\cleansing_2.jpg.analysis.json",
+      "sourceReferenceFile": "cleansing_2.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "cleansing_3.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\cleansing\\image-analyses\\cleansing_3.jpg.analysis.json",
+      "sourceReferenceFile": "cleansing_3.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "cleansing_4.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\cleansing\\image-analyses\\cleansing_4.jpg.analysis.json",
+      "sourceReferenceFile": "cleansing_4.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    },
+    {
+      "fileName": "cleansing_5.jpg.analysis.json",
+      "relativePath": "outputs\\design-system-builder\\cleansing\\image-analyses\\cleansing_5.jpg.analysis.json",
+      "sourceReferenceFile": "cleansing_5.jpg",
+      "analysisStatus": "complete",
+      "coversRequiredDesignElements": true
+    }
+  ],
+  "analysisCompleteness": {
+    "status": "complete",
+    "averageCompletenessScore": 1,
+    "requiresAdditionalAnalysis": false,
+    "incompleteReferenceFiles": [],
+    "missingCommonFields": []
+  },
+  "missingAnalysisWarnings": [],
+  "aggregationSummary": {
+    "totalReferenceImagesFound": 5,
+    "totalReferenceImagesIncluded": 5,
+    "totalImageAnalysesUsed": 5,
+    "completeReferenceImages": 5,
+    "incompleteReferenceImages": 0,
+    "generatedDesignSystemJsonPath": "outputs\\design-system-builder\\cleansing\\cleansing.generated-design-system.json",
+    "copiedAppJsonPath": "src\\data\\beauty-design-systems\\cleansing.json",
+    "manifestPath": "outputs\\design-system-builder\\cleansing\\cleansing.manifest.json",
+    "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/cleansing/",
+    "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/cleansing/cleansing-contact-sheet.jpg",
+    "referenceContactSheetGenerated": true,
+    "referenceContactSheetMode": "cropped_grid",
+    "referenceContactSheetTileCount": 9,
+    "referenceContactSheetCropStrategy": "hero_middle_lower",
+    "contactSheetDimensions": {
+      "width": 1536,
+      "height": 1536
+    },
+    "contactSheetReadableForGeneration": true
+  },
+  "publicReferenceAssetsBasePath": "/generated-reference-assets/kmong-beauty/cleansing/",
+  "publicReferenceImagePaths": [
+    "/generated-reference-assets/kmong-beauty/cleansing/references/cleansing_1.jpg",
+    "/generated-reference-assets/kmong-beauty/cleansing/references/cleansing_2.jpg",
+    "/generated-reference-assets/kmong-beauty/cleansing/references/cleansing_3.jpg"
+  ],
+  "publicReferenceContactSheetPath": "/generated-reference-assets/kmong-beauty/cleansing/cleansing-contact-sheet.jpg",
+  "referenceContactSheetGenerated": true,
+  "referenceContactSheetMode": "cropped_grid",
+  "referenceContactSheetTileCount": 9,
+  "referenceContactSheetCropStrategy": "hero_middle_lower",
+  "contactSheetDimensions": {
+    "width": 1536,
+    "height": 1536
+  },
+  "contactSheetReadableForGeneration": true,
+  "referenceImageCountAvailableForGeneration": 3,
+  "referenceImagesPassedToGenerationDefault": [
+    "/generated-reference-assets/kmong-beauty/cleansing/references/cleansing_1.jpg",
+    "/generated-reference-assets/kmong-beauty/cleansing/references/cleansing_2.jpg",
+    "/generated-reference-assets/kmong-beauty/cleansing/references/cleansing_3.jpg"
+  ]
+}

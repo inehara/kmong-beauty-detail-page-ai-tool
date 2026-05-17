@@ -246,6 +246,23 @@ button:disabled {
   text-align: left;
 }
 
+.category-warning {
+  background: #fff7e6;
+  border: 1px solid #eac46f;
+  border-radius: 8px;
+  color: #664a16;
+  font-size: 14px;
+  line-height: 1.45;
+  margin: 0 auto 24px;
+  max-width: 1320px;
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.category-warning strong {
+  color: #4b3510;
+}
+
 .analysis-source-panel {
   background: #ffffff;
   border: 1px solid #dfe5e8;
@@ -256,6 +273,98 @@ button:disabled {
   max-width: 1320px;
   padding: 14px 16px;
   text-align: left;
+}
+
+.reference-details-panel {
+  background: #ffffff;
+  border: 1px solid #dfe5e8;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  max-width: 1320px;
+  padding: 22px;
+  text-align: left;
+}
+
+.validation-badge {
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 6px 10px;
+}
+
+.validation-badge.complete {
+  background: #e8f2ed;
+  border: 1px solid #bdd8cc;
+  color: #225445;
+}
+
+.validation-badge.partial {
+  background: #fff5df;
+  border: 1px solid #edd39a;
+  color: #76521b;
+}
+
+.validation-badge.incomplete {
+  background: #fff0f0;
+  border: 1px solid #e4a6a6;
+  color: #8a2727;
+}
+
+details {
+  border-top: 1px solid #e4eaed;
+  margin-top: 16px;
+  padding-top: 14px;
+}
+
+summary {
+  color: #202a32;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.trace-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.trace-item {
+  background: #f6f8f9;
+  border: 1px solid #dfe5e8;
+  border-radius: 8px;
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+}
+
+.trace-item span {
+  color: #52616b;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.contact-sheet-preview {
+  background: #f6f8f9;
+  border: 1px solid #dfe5e8;
+  border-radius: 8px;
+  display: grid;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding: 14px;
+}
+
+.contact-sheet-preview figcaption {
+  color: #202a32;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.contact-sheet-preview img {
+  background: #ffffff;
+  border-radius: 6px;
+  max-height: 520px;
+  object-fit: contain;
+  width: 100%;
 }
 
 .analysis-source-panel strong {

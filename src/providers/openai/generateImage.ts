@@ -17,6 +17,14 @@ type GenerateImageResult = {
   source: 'mock' | 'openai'
   status: string
   fallbackReason?: string
+  referenceImagesPassedToGeneration: string[]
+  referenceContactSheetPath?: string
+  referenceContactSheetMode?: string
+  referenceImageCountPassedToGeneration: number
+  generationUsedDirectReferenceImages: boolean
+  originalContentBoardGenerated: boolean
+  originalContentBoardMode?: string
+  originalContentBoardDimensions?: { width: number; height: number }
   issueReport?: IssueReport
 }
 
@@ -54,6 +62,10 @@ export async function generateImage({
       source: 'mock',
       status: 'Fell back to mock after image.',
       fallbackReason: error.message,
+      referenceImagesPassedToGeneration: [],
+      referenceImageCountPassedToGeneration: 0,
+      generationUsedDirectReferenceImages: false,
+      originalContentBoardGenerated: false,
       issueReport: createOpenAiIssueReport(error, model, designSystem, originalAnalysis),
     }
   }
@@ -126,6 +138,10 @@ export async function generateImage({
       imageUrl,
       source: 'openai',
       status: 'After image generated with OpenAI.',
+      referenceImagesPassedToGeneration: [],
+      referenceImageCountPassedToGeneration: 0,
+      generationUsedDirectReferenceImages: false,
+      originalContentBoardGenerated: false,
     }
   } catch (error) {
     const normalizedError = normalizeOpenAiImageGenerationError(error)
@@ -138,6 +154,10 @@ export async function generateImage({
       source: 'mock',
       status: getAfterImageStatus(normalizedError),
       fallbackReason,
+      referenceImagesPassedToGeneration: [],
+      referenceImageCountPassedToGeneration: 0,
+      generationUsedDirectReferenceImages: false,
+      originalContentBoardGenerated: false,
       issueReport: createOpenAiIssueReport(
         normalizedError,
         model,
@@ -212,7 +232,7 @@ function getFallbackReason(error: Error) {
 }
 
 function isAscii(value: string) {
-  return /^[\x00-\x7F]*$/.test(value)
+  return [...value].every((character) => character.charCodeAt(0) <= 127)
 }
 
 async function resizeImageForOpenAiGeneration(beforeImageUrl: string) {

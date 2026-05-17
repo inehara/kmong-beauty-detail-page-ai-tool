@@ -1,0 +1,217 @@
+{
+  "fileName": "makeup_2.png",
+  "category": "makeup",
+  "analysisStatus": "complete",
+  "analysisCompletenessScore": 1,
+  "missingDesignElementFields": [],
+  "requiresAdditionalAnalysis": false,
+  "fullDesignElementAnalysis": {
+    "overallLayoutStructure": [
+      "vertical stacking",
+      "sectioned layout",
+      "image and text integration"
+    ],
+    "sectionOrder": [
+      "hero section",
+      "product details",
+      "benefits",
+      "testimonials",
+      "price offer"
+    ],
+    "heroSectionStyle": [
+      "large product image",
+      "soft gradient background",
+      "minimalistic design"
+    ],
+    "headlineStyle": [
+      "bold font",
+      "large size",
+      "high contrast color"
+    ],
+    "subheadlineStyle": [
+      "medium font",
+      "slightly smaller than headline",
+      "supportive tone"
+    ],
+    "bodyTextStyle": [
+      "regular font",
+      "easy to read",
+      "informative"
+    ],
+    "typographyHierarchy": [
+      "headline > subheadline > body text",
+      "consistent font usage"
+    ],
+    "colorPalette": [
+      "soft pink",
+      "neutral tones",
+      "white accents"
+    ],
+    "backgroundTreatment": [
+      "gradient backgrounds",
+      "soft textures",
+      "light shadows"
+    ],
+    "spacingRhythm": [
+      "consistent padding",
+      "balanced margins",
+      "clear separation between sections"
+    ],
+    "gridCompositionPattern": [
+      "single column layout",
+      "asymmetrical image placement"
+    ],
+    "cardBlockStyle": [
+      "rounded corners",
+      "shadow effects",
+      "subtle borders"
+    ],
+    "ctaButtonStyle": [
+      "prominent color",
+      "rounded edges",
+      "clear action wording"
+    ],
+    "iconStyle": [
+      "simple and clean",
+      "minimalistic design",
+      "consistent size"
+    ],
+    "badgeLabelStyle": [
+      "small size",
+      "contrasting colors",
+      "rounded corners"
+    ],
+    "trustProofElementStyle": [
+      "customer testimonials",
+      "star ratings",
+      "highlighted quotes"
+    ],
+    "productVisualTreatment": [
+      "high-quality images",
+      "varied angles",
+      "contextual usage"
+    ],
+    "imageCropCompositionStyle": [
+      "close-up shots",
+      "focus on product details",
+      "soft backgrounds"
+    ],
+    "beforeAfterOrProofSectionStyling": [
+      "not present in reference image"
+    ],
+    "ingredientFeatureSectionStyling": [
+      "not present in reference image"
+    ],
+    "benefitBlockStyling": [
+      "bullet points",
+      "highlighted benefits",
+      "clear icons"
+    ],
+    "testimonialReviewStyling": [
+      "highlighted quotes",
+      "customer images",
+      "star ratings"
+    ],
+    "priceOfferSectionStyling": [
+      "clear pricing",
+      "discount labels",
+      "prominent placement"
+    ],
+    "footerBottomCtaStyling": [
+      "not present in reference image"
+    ],
+    "commerceConversionPatterns": [
+      "clear CTAs",
+      "trust signals",
+      "highlighted benefits"
+    ],
+    "visualHierarchy": [
+      "clear focal points",
+      "important information emphasized",
+      "logical flow"
+    ],
+    "reusableDesignRules": [
+      "consistent color usage",
+      "typography hierarchy maintained",
+      "spacing uniformity"
+    ],
+    "strengths": [
+      "aesthetic appeal",
+      "clear communication",
+      "effective use of imagery"
+    ],
+    "avoidPatterns": [
+      "overcrowded sections",
+      "inconsistent font sizes",
+      "cluttered layouts"
+    ]
+  },
+  "reusablePatterns": [
+    "gradient backgrounds",
+    "rounded corners",
+    "consistent typography"
+  ],
+  "extractionNotes": [
+    "focus on product benefits",
+    "use of testimonials for trust"
+  ],
+  "layoutStructure": [
+    "vertical stacking",
+    "image and text integration"
+  ],
+  "sectionOrder": [
+    "hero section",
+    "product details",
+    "benefits",
+    "testimonials",
+    "price offer"
+  ],
+  "heroSectionStyle": [
+    "large product image",
+    "soft gradient background"
+  ],
+  "typographyStyle": [
+    "bold for headlines",
+    "regular for body text"
+  ],
+  "colorPalette": [
+    "soft pink",
+    "neutral tones"
+  ],
+  "spacingPattern": [
+    "consistent padding",
+    "balanced margins"
+  ],
+  "visualHierarchy": [
+    "clear focal points",
+    "important information emphasized"
+  ],
+  "ctaPlacement": [
+    "prominent placement",
+    "clear action wording"
+  ],
+  "trustElements": [
+    "customer testimonials",
+    "star ratings"
+  ],
+  "productVisualTreatment": [
+    "high-quality images",
+    "varied angles"
+  ],
+  "iconBadgeUsage": [
+    "simple and clean",
+    "consistent size"
+  ],
+  "commerceConversionPatterns": [
+    "clear CTAs",
+    "trust signals"
+  ],
+  "strengths": [
+    "aesthetic appeal",
+    "clear communication"
+  ],
+  "reusableDesignRules": [
+    "consistent color usage",
+    "typography hierarchy maintained"
+  ]
+}

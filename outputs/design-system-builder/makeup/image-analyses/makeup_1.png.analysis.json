@@ -1,0 +1,196 @@
+{
+  "fileName": "makeup_1.png",
+  "category": "makeup",
+  "analysisStatus": "complete",
+  "analysisCompletenessScore": 1,
+  "missingDesignElementFields": [],
+  "requiresAdditionalAnalysis": false,
+  "fullDesignElementAnalysis": {
+    "overallLayoutStructure": [
+      "vertical stacking",
+      "single column layout"
+    ],
+    "sectionOrder": [
+      "hero section",
+      "how to use",
+      "color guide",
+      "product details",
+      "footer"
+    ],
+    "heroSectionStyle": [
+      "large product image",
+      "minimal text overlay",
+      "soft color gradient background"
+    ],
+    "headlineStyle": [
+      "large font size",
+      "bold typeface",
+      "centered alignment"
+    ],
+    "subheadlineStyle": [
+      "medium font size",
+      "regular typeface",
+      "centered alignment"
+    ],
+    "bodyTextStyle": [
+      "small font size",
+      "regular typeface",
+      "left-aligned"
+    ],
+    "typographyHierarchy": [
+      "headline > subheadline > body text"
+    ],
+    "colorPalette": [
+      "soft pink",
+      "neutral beige",
+      "white"
+    ],
+    "backgroundTreatment": [
+      "gradient background",
+      "soft textures"
+    ],
+    "spacingRhythm": [
+      "consistent padding",
+      "generous whitespace"
+    ],
+    "gridCompositionPattern": [
+      "single column grid",
+      "asymmetrical elements"
+    ],
+    "cardBlockStyle": [
+      "rounded corners",
+      "soft shadows"
+    ],
+    "ctaButtonStyle": [
+      "rounded edges",
+      "contrasting color",
+      "prominent placement"
+    ],
+    "iconStyle": [
+      "simple line icons",
+      "minimalist design"
+    ],
+    "badgeLabelStyle": [
+      "small size",
+      "rounded corners",
+      "contrasting background"
+    ],
+    "trustProofElementStyle": [
+      "not present in reference image"
+    ],
+    "productVisualTreatment": [
+      "high-quality images",
+      "soft lighting"
+    ],
+    "imageCropCompositionStyle": [
+      "close-up shots",
+      "angled product views"
+    ],
+    "beforeAfterOrProofSectionStyling": [
+      "not present in reference image"
+    ],
+    "ingredientFeatureSectionStyling": [
+      "not present in reference image"
+    ],
+    "benefitBlockStyling": [
+      "bullet points",
+      "icons accompanying text"
+    ],
+    "testimonialReviewStyling": [
+      "not present in reference image"
+    ],
+    "priceOfferSectionStyling": [
+      "clear pricing",
+      "bold font"
+    ],
+    "footerBottomCtaStyling": [
+      "not present in reference image"
+    ],
+    "commerceConversionPatterns": [
+      "clear product benefits",
+      "easy navigation"
+    ],
+    "visualHierarchy": [
+      "clear differentiation between sections",
+      "prominent product focus"
+    ],
+    "reusableDesignRules": [
+      "consistent font usage",
+      "color harmony"
+    ],
+    "strengths": [
+      "clean design",
+      "effective use of whitespace"
+    ],
+    "avoidPatterns": [
+      "cluttered sections",
+      "overly complex layouts"
+    ]
+  },
+  "reusablePatterns": [
+    "vertical alignment",
+    "soft color transitions",
+    "minimalist design"
+  ],
+  "extractionNotes": [
+    "focus on product presentation",
+    "emphasis on usability"
+  ],
+  "layoutStructure": [
+    "single column",
+    "vertical sections"
+  ],
+  "sectionOrder": [
+    "hero",
+    "how to use",
+    "color guide",
+    "details"
+  ],
+  "heroSectionStyle": [
+    "large image",
+    "minimal text"
+  ],
+  "typographyStyle": [
+    "bold headlines",
+    "clear body text"
+  ],
+  "colorPalette": [
+    "soft pinks",
+    "neutrals"
+  ],
+  "spacingPattern": [
+    "consistent margins",
+    "ample padding"
+  ],
+  "visualHierarchy": [
+    "prominent headlines",
+    "clear section breaks"
+  ],
+  "ctaPlacement": [
+    "above the fold",
+    "within product sections"
+  ],
+  "trustElements": [
+    "not present in reference image"
+  ],
+  "productVisualTreatment": [
+    "high-quality imagery",
+    "soft focus"
+  ],
+  "iconBadgeUsage": [
+    "simple icons",
+    "minimalist badges"
+  ],
+  "commerceConversionPatterns": [
+    "clear benefits",
+    "easy navigation"
+  ],
+  "strengths": [
+    "effective layout",
+    "strong visual appeal"
+  ],
+  "reusableDesignRules": [
+    "consistent typography",
+    "harmonious color scheme"
+  ]
+}

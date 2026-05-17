@@ -105,7 +105,7 @@ function getOpenRouterReferer() {
 }
 
 function isAscii(value: string) {
-  return /^[\x00-\x7F]*$/.test(value)
+  return [...value].every((character) => character.charCodeAt(0) <= 127)
 }
 
 function buildAnalysisPrompt(fileName: string, category: BeautySubcategory) {
@@ -116,6 +116,7 @@ function buildAnalysisPrompt(fileName: string, category: BeautySubcategory) {
     '{',
     '  "fileName": string,',
     '  "category": "skincare" | "makeup" | "cleansing" | "hair_body" | "beauty_tool",',
+    '  "detectedCategory": "skincare" | "makeup" | "cleansing" | "hair_body" | "beauty_tool",',
     '  "summary": string,',
     '  "targetCustomer": string,',
     '  "currentStrengths": string[],',
@@ -128,7 +129,8 @@ function buildAnalysisPrompt(fileName: string, category: BeautySubcategory) {
     '  "recommendedDirection": string',
     '}',
     `Use fileName: ${fileName}.`,
-    `Use category: ${category}.`,
+    `Use category: ${category} as the user-selected category.`,
+    'Set detectedCategory to the category that best matches the visible uploaded image, even if it differs from the user-selected category.',
     'Focus on what is visible in the image and on practical conversion improvements.',
   ].join('\n')
 }
@@ -171,6 +173,7 @@ function normalizeOpenRouterAnalysis(
   return {
     fileName: parsed.fileName || fileName,
     category,
+    detectedCategory: normalizeBeautyCategory(parsed.detectedCategory) || category,
     summary: parsed.summary || 'Uploaded detail page analysis completed.',
     targetCustomer:
       parsed.targetCustomer || 'Beauty shoppers comparing trust signals.',
@@ -231,6 +234,20 @@ function normalizeStringArray(value: unknown): string[] {
   return []
 }
 
+function normalizeBeautyCategory(value: unknown): BeautySubcategory | undefined {
+  if (
+    value === 'skincare' ||
+    value === 'makeup' ||
+    value === 'cleansing' ||
+    value === 'hair_body' ||
+    value === 'beauty_tool'
+  ) {
+    return value
+  }
+
+  return undefined
+}
+
 function createMockAnalysis(
   fileName: string,
   category: BeautySubcategory,
@@ -239,6 +256,7 @@ function createMockAnalysis(
   return {
     fileName,
     category,
+    detectedCategory: category,
     summary:
       'The original page communicates the product, but the hierarchy, proof points, and conversion cues need a clearer beauty-category structure.',
     targetCustomer:
